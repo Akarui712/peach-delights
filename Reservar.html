@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reservación</title>
+        <meta charset="UTF-8">
+        <script src="inicio.js"></script>
+        <link rel="stylesheet" href="Reservar.css">
+        <!--Link fuente títulos-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap" rel="stylesheet">
+        <!--Link párrafos-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!---->
+        <div class="page">
+            <!---->
+            <div class="marca">
+                <h1>Peach Delights</h1>
+                <div class="img">
+                    <img src="img/AI_2.png">
+                </div>
+            </div>
+            <!---->
+            <div class="middle">
+                <!---->
+                <form id="registro">
+                    <h1>Reserva para una ocasión especial</h1>
+                    <br><br>
+                    <!---->
+                    <div class="formulario">
+                        <h2>Datos personales</h2>
+                        <hr><br>
+                        <!---->
+                        <div class="personal">
+                            <input type="text" name="nombre" size="30" maxlength="30" 
+                            class="textbox" id="nombre" placeholder="Nombre(s)">
+                            <input type="text" name="ap_paterno" size="30" maxlength="30" 
+                            class="textbox" placeholder="Apellido paterno">
+                            <input type="text" name="ap_materno" size="30" maxlength="30" 
+                            class="textbox" placeholder="Apellido materno">
+                        </div>
+                        <!---->
+                        <div class="personal2">
+                            <input type="text" name="email" size="30" maxlength="60" 
+                            class="textbox" placeholder="Correo electrónico">
+                            <input type="number" name="phone" size="30" maxlength="10" 
+                            class="textbox" placeholder="Número de teléfono">
+                            <input type="radio" name="género" class="genero" value="femenino">Femenino
+                            <input type="radio" name="género" class="genero" value="masculino">Masculino
+                        <br><br><br><br>
+                        </div>
+                        <!---->
+                        <h2>Datos de reservación</h2>
+                        <hr><br>
+                        <!---->
+                        <div class="cuenta">
+                            <input type="date" name="fecha" class="fecha" placeholder="fecha">
+                            <input type="text" name="usuario" size="30" maxlength="10" 
+                            class="textbox" placeholder="Número de personas">
+                            <button onclick="mostrar()">Listo</button>
+                        </div>
+                        <!---->
+                    </div>
+                    <!---->
+                </form>
+                <!---->
+            </div>
+            <!---->
+        </div>
+        <!---->
+    </body>
+</html>

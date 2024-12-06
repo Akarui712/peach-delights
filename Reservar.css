@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #eba9bb;
+}
+/*----------------Página----------------*/
+.page{
+    display: flex;
+}
+/*----------------Lateral izquierdo----------------*/
+.marca{
+    margin-right: -18%;
+    margin-left: 7%;
+    margin-top: 12%;
+    width: 216px;
+}
+.marca h1{
+    margin-left: -29%;
+    margin-right: -20%;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #ff779e;
+}
+img{
+    width: 320px;
+    height: 400px;
+    margin-left: -30%;
+    margin-top: -2%;
+}
+hr{
+    width: 95%;
+    height: 2px;
+    background-color: white;
+    border: none;
+}
+/*----------------Lateral derecho----------------*/
+.middle h1{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.middle{
+    margin-left: 25%;
+    width: 90%;
+    height: 650px;
+    background: #ffe1e9;
+    
+}
+h2{
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    color: #d4899d;
+}
+.formulario{
+    padding-left: 30px;
+}
+.personal{
+    display: flex;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+.textbox{
+    height: 28px;
+    margin-right: 5%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding: 8px;
+    border-color: #fd8e78;
+}
+.personal2, .cuenta{
+    margin-left: 5%;
+    padding-top: 20px;
+}
+.fecha{
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 239px;
+    height: 28px;
+    margin-right: 4.6%;
+    border-color: #fd8e78;
+}
+.genero{
+    margin-left: 7.5%;
+    margin-right: 1%;
+    width: 15px;
+    height: 15px;
+}
+button{
+    margin-top: 8%;
+    margin-left: 40%;
+    height: 42px;
+    width: 100px;
+    border-radius: 18px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    border-color: #fd8e78;
+}
